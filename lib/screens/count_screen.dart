@@ -19,7 +19,7 @@ class _CountState extends State<Count> {
         return Text(value.countValue.toString());
       })),
       floatingActionButton: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
+        mainAxisAlignment: MainAxisAlignment.end, 
         children: [
           FloatingActionButton(
             onPressed: () {
